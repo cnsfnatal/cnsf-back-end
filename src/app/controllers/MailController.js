@@ -13,7 +13,7 @@ class MainController {
     });
 
     const mailOption = {
-      from: ' "Email do form do URA" pedrotrab2123@gmail.com',
+      from: ' "Email do form do CNSF" pedrotrab2123@gmail.com',
       to: "pedrojogos2132@gmail.com",
       subject: req.body.nome,
       text: req.body.mensagem,
